@@ -48,5 +48,66 @@ public class Exercicio4 {
         double resultadoLosango = (dMaiorLosango*dMenorLosango)/2;
 
         System.out.println("O valor da área do seu Losango é: " + resultadoLosango);
+
+        // Trapézio
+
+        double bMaiorTrapezio;
+        double bMenorTrapezio;
+        double alturaTrapezio;
+
+        System.out.println("Digite o maior base do Trapézio");
+        bMaiorTrapezio = scanner.nextDouble();
+
+        System.out.println("Digite o menor base do Trapézio");
+        bMenorTrapezio = scanner.nextDouble();
+
+        System.out.println("Digite a altura do Trapézio");
+        alturaTrapezio = scanner.nextDouble();
+
+        double resultadoTrapezio = (bMaiorTrapezio*bMenorTrapezio)*alturaTrapezio/2;
+
+        System.out.println("O valor da área do seu Trapézio é: " + resultadoTrapezio);
+
+        //Papalelogramo
+
+        double basePapalelogramo;
+        double alturaPapalelogramo;
+
+        System.out.println("Digite a base do Papalelogramo: ");
+        basePapalelogramo = scanner.nextDouble();
+
+        System.out.println("Digite a altura do Papalelogramo: ");
+        alturaPapalelogramo = scanner.nextDouble();
+
+        double resultadoPapalelogramo = baseRetangulo*alturaPapalelogramo;
+
+        System.out.println("O valor da área do seu Papalelogramo é: " + resultadoPapalelogramo);
+
+        //Triângulo
+
+        double baseTriangulo;
+        double alturaTriangulo;
+
+        System.out.println("Digite a base do Triângulo: ");
+        baseTriangulo = scanner.nextDouble();
+
+        System.out.println("Digite a altura do Triângulo: ");
+        alturaTriangulo = scanner.nextDouble();
+
+        double resultadoTriangulo = (baseTriangulo*alturaTriangulo)/2;
+
+        System.out.println("O valor da área do seu Triângulo é: " + resultadoTriangulo);
+
+        //Círculo
+
+        double piCirculo = 3.1415;
+        double raioCirculo;
+
+        System.out.println("Digite o valor do raio do Círculo");
+        raioCirculo = scanner.nextDouble();
+
+        double resultadoCirculo = piCirculo*(raioCirculo*raioCirculo);
+
+        System.out.println("O valor da área do Círculo é: " + resultadoCirculo);
     }
 }
