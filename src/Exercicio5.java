@@ -12,11 +12,12 @@ public class Exercicio5 {
         System.out.println("Por favor, digite algum número: ");
         numeroDecimal = scanner.nextDouble();
 
-        int numeroInteiro = (int) numeroDecimal;
-
-        //Fazer uma variavel boolean para verificador
-
-        if (numeroDecimal < 0)
-            System.out.println("");
+        if (numeroDecimal>0){
+            System.out.println("O número que você escolheu é positivo");
+        } else if (numeroDecimal<0) {
+            System.out.println("O número que você escolheu é negativo");
+        } else {
+            System.out.println("O número que você escolheu é neutro");
+        }
     }
 }
